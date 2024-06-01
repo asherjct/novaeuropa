@@ -1,0 +1,160 @@
+body {
+    background-image: url("./assets/synthminee.png");
+    background-size: 128%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    border-bottom: 5px solid rgb(191, 71, 228);
+    box-shadow: 0 0 10px rgb(191, 71, 228), 0 0 20px rgb(191, 71, 228), 0 0 30px rgb(191, 71, 228);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(191, 71, 228);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('./assets/novalogo.png');
+    background-size: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner-content {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.serverip {
+    background-color: #240e2281;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-top: 5px solid rgb(191, 71, 228);
+    box-shadow: 0 0 10px rgb(191, 71, 228), 0 0 20px rgb(191, 71, 228), 0 0 30px rgb(191, 71, 228);
+}
+
+.serverip h2 {
+    margin: 0 0 10px;
+    font-size: 210%;
+}
+
+.serverip p {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 70%;
+    background-color: #333333b7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside {
+    width: 25%;
+}
+
+.discord button {
+    color: #fff;
+    background-color: #0066ff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.discord-widget, .latest-threads {
+    background-color: #3333339c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    height: 45px;
+    border-top: 5px solid rgb(191, 71, 228);
+    box-shadow: 0 0 10px rgb(191, 71, 228), 0 0 20px rgb(191, 71, 228), 0 0 30px rgb(191, 71, 228);
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background: #012e72;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+a.navTab:hover {
+    border-bottom: 4px solid rgb(191, 71, 228);
+}
+
+#steveimg {
+    margin-top: 15%;
+}
